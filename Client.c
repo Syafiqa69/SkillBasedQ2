@@ -35,7 +35,6 @@ int main() {
         perror("Error receiving data from server");
         exit(EXIT_FAILURE);
     }
-
     // Display the random number
     printf("Random number received from the server: %d\n", random_number);
 
